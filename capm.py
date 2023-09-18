@@ -69,7 +69,7 @@ print("Alpha (Intercept):", alpha)
 print("R-squared Value:", r_value)
 
 
-risk_free_rate = 0.06  # 6% risk-free rate (assumed)
+risk_free_rate = 0.06  
 expected_return = risk_free_rate + beta * (index_daily_return.mean() * 252 - risk_free_rate)
 
 print("Expected Return based on CAPM:", expected_return)
