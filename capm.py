@@ -6,8 +6,8 @@ from sklearn.linear_model import LinearRegression
 from scipy import stats
 
 
-stock_symbol = "RELIANCE.NS"   # Ticker for Infosys Limited on BSE (in INR)
-index_symbol = "^NSEI"     # NIFTY 50 index on NSE (in INR)
+stock_symbol = "RELIANCE.NS"   
+index_symbol = "^NSEI"    
 
 
 start_date = "2022-09-18"
